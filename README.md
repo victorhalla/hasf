@@ -13,7 +13,7 @@ I found the idea brilliant and innovative, but when researching how I could crea
 After research I discovered the stingless bees that in general are much less aggressive, their colonies are smaller and produce excellent quality honey, being very easy to breed. Embrapa Brazil, together with the Brazilian Association of Bee Studies, offers a free Meliponiculture course at https://www.youtube.com/watch?v=Mv78ZATrcTQ
 During my research I noticed that the most used hive model in Brazil and even in other countries like Astralia is the INPA that were conceived by the researcher Fernando Oliveira when he worked at the National Institute for Research in the Amazon (INPA). The box model was baptized with its own name, Fernando Oliveira, however it became popular with the name of the institute.
 The model was developed with the aim of facilitating the work of honey farmers. Thus optimizing the division of swarms and facilitating the collection of honey.
-INPA boxes are made up of three basic modules: Nest, Uper Nest and Honey. So the size of the modules and the amount of honey pots will depend on each species of stingless bees that will be created in these INPA boxes.
+INPA boxes are made up of three basic modules: Nest, Over-Nest and Honey Chamber. So the size of the modules and the amount of honey pots will depend on each species of stingless bees that will be created in these INPA boxes.
 
 ## Modular Design
 The proposed design has 5 blocks:
@@ -47,21 +47,26 @@ The prototype uses the renowned INPA models but a cylindrical box thus allowing 
 
 ## Base
 The hive entrance is located at the base and has a thread for PET bottles so that the mouth of a bottle is placed whose objective is to prevent the attack of other insects such as ants. Inside the base, insulating material such as styrofoam should be placed in order to protect the hive, as well as create the path to the center so that the bees can reach the nest.
+![Hash Base](src/images/HASF-Base.png)
 
 ## Nest
 There is a space of 20 mm between the external and internal wall for placing an insulating material such as Styrofoam. The inside of the ninhi has 120 mm in diameter with a central hole of 10 mm for the entrance of the bees. The internal part can be covered with wood if the meliponicultor wishes, such as cork or ice cream sticks.
+![Hash Nest](src/images/HASF-Nest.png)
 
 ## Over-Nest
 it follows the same pattern of the nest with the difference that its base has a lower opening in the form of a square of 100 mm x 100 mm and 4 side entrances for the bees. The goal is that the bees also produce the honeycombs in the semen to facilitate the process of dividing the hive.
+![Hash Overnest](src/images/HASF-Overnest.png)
 
 ## Honey Chamber
 It has honeycombs with a capacity to store approximately 7 ml of honey. The objective is to reduce the work of bees in the production of honeycombs or jars of honey and facilitate the extraction of honey.
 Perhaps according to the type of bee, the honey pots need to have their size reduced or increased, so I think in the future that the honeycombs are not fixed, thus allowing to change the sizes as necessary.
 Another possibility would be to produce jars of honey directly from beeswax using a silicone form.
 Multiple honey chambers can be added one above the other to create a larger space for honey production
+![Hash Base](src/images/HASF-HoneyChamber.png)
 
 ## Cover
 It must be filled with insulating material to close the hive
+![Hash Base](src/images/HASF-Cover.png)
 
 # Next Steps
 - [ ] add electronic monitoring of temperature, humidity, etc.
