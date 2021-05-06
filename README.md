@@ -50,7 +50,7 @@ The hive entrance is located at the base and has a thread for PET bottles so tha
 ![Hash Base](src/images/HASF-Base.png)
 
 ## Nest
-There is a space of 20 mm between the external and internal wall for placing an insulating material such as Styrofoam. The inside of the ninhi has 120 mm in diameter with a central hole of 10 mm for the entrance of the bees. The internal part can be covered with wood if the meliponicultor wishes, such as cork or ice cream sticks.
+There is a space of 20 mm between the external and internal wall for placing an insulating material such as Styrofoam. The inside of the nest has 120 mm in diameter with a central hole of 10 mm for the entrance of the bees. The internal part can be covered with wood if the meliponicultor wishes, such as cork or ice cream sticks.
 ![Hash Nest](src/images/HASF-Nest.png)
 
 ## Over-Nest
