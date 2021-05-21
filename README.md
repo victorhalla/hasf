@@ -25,20 +25,27 @@ The proposed design has 5 blocks:
 
 ![Hash Box](src/images/hasf.png)
 
+### Section View
+![Hash Box](src/images/HASF-SectionView.png)
+
 ## Heat and Cold resistant
 Bees are very sensitive to changes in temperature, so essential to a stable environment. In nature, they use tree hollows that have excellent thermal resistance. To guarantee this thermal comfort, all blocks have a 2 cm layer that must be filled with Styrofoam. Other insulators can also be used. As the walls have a thickness of 0.1 cm to give greater rigidity, a mixture of cement with styrofoam can be used.
+The standards beehives used in beekeeping are built with the aim to maximise the honey production without really considering the comfort of the bees. These shelters which are very far to the natural habitat of the bees, weaken them by disturbing their metabolism. The cylindrical structure is the most efficient to save the warmth.
 
 ## Durable Materials
 For testing purposes, 3D models are being printed with different types of material such as PLA, ABS, PET-G among others. The future goal is to make molds for the injection of recyclable plastic.
+Perhaps more sustainable and better alternative for bees would be production using agglomerated cork. This material will be evaluated in the future as an alternative to plastic.
 
 ## Portable
-The hive needs to be portable, allowing easy handling and transportation when necessary. The lid has a handle for loading and the base has a threaded entrance to close the hive during transport
+The hive needs to be portable, allowing easy handling and transportation when necessary.
 
 ## Easy to Operate
 Because it is modular and threadable, you can mix modules, increase the number of honey chamber, etc. Another positive point is the ease of collecting honey due to the fact that the jars have a pattern
+Based on some studies found on the Internet and used in Malaysia, Australia and Brazil, I developed a honeycomb that has a hexagonal structure with a diameter of 1.6 cm and height of 1.6 cm to standardize the construction of honey pots thus facilitating the its extraction. This structure can be created in plastic or using beeswax with silicone mold.
+The idea is to test with Jataí bees, but it can be used with other bees and you may need to change the dimensions. The current size was based on the following document [Efeito da padronização da altura de melgueiras para abelha Jataí](http://apacame.org.br/site/revista/mensagem-doce-n-145-marco-de-2018/artigo-5/?fbclid=IwAR1WRlwDaLafMQsi6imAG6ThI1SdjlGxfZeDl4RUsPbpFZx_EBIDRmaJwyM)
 
 ## Low Cost
-The idea is to produce units in non-toxic and biodegradable plastic at low cost
+The idea is to produce units in non-toxic and biodegradable plastic at low cost.
 
 # Design Explanation
 
@@ -54,24 +61,40 @@ There is a space of 20 mm between the external and internal wall for placing an 
 ![Hash Nest](src/images/HASF-Nest.png)
 
 ## Over-Nest
-it follows the same pattern of the nest with the difference that its base has a lower opening in the form of a square of 100 mm x 100 mm and 4 side entrances for the bees. The goal is that the bees also produce the honeycombs in the semen to facilitate the process of dividing the hive.
+it follows the same pattern of the nest with the difference that its base has a lower opening in the form of a square of 80 mm x 80 mm and 4 side entrances for the bees. The goal is that the bees also produce the honeycombs in the semen to facilitate the process of dividing the hive.
 ![Hash Overnest](src/images/HASF-Overnest.png)
 
 ## Honey Chamber
-It has honeycombs with a capacity to store approximately 7 ml of honey. The objective is to reduce the work of bees in the production of honeycombs or jars of honey and facilitate the extraction of honey.
+It has honeycombs with a capacity to store approximately 5 ml of honey. The objective is to reduce the work of bees in the production of honeycombs or jars of honey and facilitate the extraction of honey.
 Perhaps according to the type of bee, the honey pots need to have their size reduced or increased, so I think in the future that the honeycombs are not fixed, thus allowing to change the sizes as necessary.
 Another possibility would be to produce jars of honey directly from beeswax using a silicone form.
 Multiple honey chambers can be added one above the other to create a larger space for honey production
 ![Hash Base](src/images/HASF-HoneyChamber.png)
+![Hash Base](src/images/HASF-HoneyChamberwithHoneycomb.png)
+
+### Honeycomb Mold
+It is a plastic piece for creating a silicone mold. With the silicone mold the honeycombs could be created from melted beeswax which would create a pattern for the bees facilitating the extraction of honey.
+To make the silicone mold it is necessary to use liquid silicone, add the catalyst according to the manufacturer's instructions and pour it into the mold. When it is cured approximately 2 hours later, the mold can be removed from the mold.
+![Hash Base](src/images/HASF-HoneycombMold.png)
 
 ## Cover
 It must be filled with insulating material to close the hive
 ![Hash Base](src/images/HASF-Cover.png)
 
 # Next Steps
-- [ ] add electronic monitoring of temperature, humidity, etc.
-- [ ] improve design based on suggestions.
-- [ ] develop beeswax honeycombs.
+- [ ] add electronic monitoring of temperature, humidity, etc;
+- [ ] Create a honey driller and extractor;
+- [x] improve design based on suggestions (version 2.0);
+- [x] develop beeswax honeycombs (version 2.0);
+
+# Version Changes
+- 1.0 Initial version
+- 2.0 Second release (21/05/2021)
+  - Changed thread from inside to outside to prevent water from entering the thread
+  - Built the inlet pipe
+  - Changed the dimensions of the honey chamber based on the document [Efeito da padronização da altura de melgueiras para abelha Jataí](http://apacame.org.br/site/revista/mensagem-doce-n-145-marco-de-2018/artigo-5/?fbclid=IwAR1WRlwDaLafMQsi6imAG6ThI1SdjlGxfZeDl4RUsPbpFZx_EBIDRmaJwyM) for tests with Jataí bee
+  - Creation of a silicone mold for the construction of beeswax honeycombs
+  - Improved images
 
 # More Information
 - [Wiki](https://github.com/victorhalla/hasf/wiki)
