@@ -56,6 +56,7 @@ Light concrete is a type of concrete with lower density that has numerous advant
 - Flexibility, with different densities and patterns
 - 100% recyclable material
 - Compliance with technical standards
+Light Concrete can be made of foam or expanded vermiculite in a 7:1 ratio.
 
 ### Cork
 In addition to suberin, the chemical composition of cork gives it unique properties, which make it a strong and quite resistant material, despite its low density. Check out its main features below:
