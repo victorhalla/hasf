@@ -36,6 +36,38 @@ The standards beehives used in beekeeping are built with the aim to maximise the
 For testing purposes, 3D models are being printed with different types of material such as PLA, ABS, PET-G among others. The future goal is to make molds for the injection of recyclable plastic.
 Perhaps more sustainable and better alternative for bees would be production using agglomerated cork. This material will be evaluated in the future as an alternative to plastic.
 
+### PLA used for prototyping
+PLA filament is a material used for 3D printing, famous for having its degradation process biologically activated.
+PLA is a thermoplastic polymer made with lactic acid from raw materials that have renewable sources.
+Its preparation can be made from vegetables such as corn, manioc, beets or sugar cane.
+Because it comes from organic matter, PLA is biodegradable and, therefore, compostable and recyclable.
+
+### Recycled Polypropylene
+This material is being considered more as an alternative to PVC and PET because of its clarity and its ease of converting. Much of the polypropylene is being used for closures on bottles, but at PolyPrime we have found this material to be a versatile material. Polypropylene has all the characteristics of HDPE with the added benefit of being produced in clears and tints. Even though polypropylene is not recyclable in a substantial number of municipalities, it is considered a sustainable material because it can be designed to reduce packaging and creates new packaging alternatives by using one substrate (i.e. paperboard box with a clear vinyl window).
+
+### Light Concrete
+Light concrete is a type of concrete with lower density that has numerous advantages of use and can be applied mainly in the construction of slabs and paving. Elements such as tiles, pillars, benches and counters can also present this material, with varying densities, adapted to the purpose of each element. The main advantages are:
+- Thermal and acoustic insulation
+- High resistance to impact and moisture
+- Easier handling and applications
+- Lightness and reduced transport costs
+- Decreased fire risk
+- Higher productivity in assembly and installation
+- Flexibility, with different densities and patterns
+- 100% recyclable material
+- Compliance with technical standards
+
+### Cork
+In addition to suberin, the chemical composition of cork gives it unique properties, which make it a strong and quite resistant material, despite its low density. Check out its main features below:
+- Flexibility and compressibility: in just one cubic centimeter of cork there are about 40 million watertight cells, composed of a gas mixture similar to air. These cells allow the part to be compressed without losing its flexibility and for it to recover well from its original shape when it is decompressed.
+- Impermeability: cork cells are coated with elements such as suberin and ceroids, which promote their resistance to liquids and gases.
+- Lightness: each cubic centimeter of the product weighs between 0.15 and 0.20 grams.
+- Resistance to various atmospheric conditions: its composition allows the material to maintain its physical and chemical characteristics even when exposed to variations in temperature and pressure.
+- Mold resistance: due to its impermeability, cork is also resistant to oxidation and rot.
+- Insulation: the product also acts as a thermal, vibrating and acoustic absorber, either in constructions or in the conservation of beverages. As a stopper, cork protects wine from contamination, oxidation and other effects from storage and transport.
+- Fire resistance: if exposed to fire, the material presents a slow combustion, which does not create flames, does not propagate fire and does not release toxic gases.
+- Ecological: represents a fully recyclable, biodegradable and renewable product.
+
 ## Portable
 The hive needs to be portable, allowing easy handling and transportation when necessary.
 
