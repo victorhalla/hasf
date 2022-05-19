@@ -1,4 +1,8 @@
-# HASF Box (Halla Abelha sem Ferrão)
+# HASF
+HASF BeeHive (Halla Abelha sem Ferrão)
+
+*Read this in other languages: [English](README.md), [Portuguese Brazil](README.pt-br.md)
+
 It is the prototype of a stingless bee box that uses the concept of INPA boxes, thus facilitating handling. The objectives of this model are:
 * facilitate management through 5 blocks: base, nest, over-nest, honey chamber and cover
 * low cost and durable
@@ -6,6 +10,26 @@ It is the prototype of a stingless bee box that uses the concept of INPA boxes, 
 * reduce human contact during the honey extraction process
 * test the use of prefabricated honey pots
 * be portable
+
+## Table of Contents
+  - [HASF](#Motivation)
+    - [Motivation](#Motivation)
+    - [Modular Design](#Modular-Design)
+    - [Heat and Cold resistant](#Heat-and-Cold-resistant)
+    - [Durable Materials](#Durable-Materials)
+    - [Portable](#Portable)
+    - [Easy to Operate](#Easy-to-Operate)
+    - [Low Cost](#Low-Cost)
+  - [Design Explanation](#Design-Explanation)
+    - [Concept](#Concept)
+    - [Base](#Base)
+    - [Nest](#Nest)
+    - [Over-Nest](#Over-Nest)
+    - [Honey Chamber](#Honey-Chamber)
+    - [Cover](#Cover)
+  - [Next Steps](#Next-Steps)
+  - [Version Changes](#Version-Changes)
+  - [More Information](#More-Information)
 
 ## Motivation
 In February 2015, [Flow Hive](https://www.honeyflow.com/) launched their Indiegogo campaign and surpassed their $70,000 goal 8 minutes later. They went on to raise $2.18 million in the first day. This shows how much people are interested in the topic and are willing to invest in beekeeping.
