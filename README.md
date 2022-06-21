@@ -127,7 +127,7 @@ It must be filled with insulating material to close the hive
 ![Hash Base](src/images/HASF-Cover.png)
 
 # Models
-Just as there are several types of stingless bees, it could not be different with hives, in this way, 5 sizes will be available according to the table below:
+Just as there are several types of stingless bees, it could not be different with hives, in this way, 5 sizes will be available according to the table below: 
 
 Model	| Internal Diameter Cylindrical Beehive (mm)	| External Diameter Cylindrical Beehive (mm)	| Nest Height (mm)	| Nest Volume (ml)	| Honey Chamber Height (mm)	| Honey Chamber Volume (ml)
 ---- |---- |---- |---- |---- |---- |----
