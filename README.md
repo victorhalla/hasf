@@ -1,5 +1,5 @@
 # HASF
-HASF BeeHive (Halla Abelha sem Ferrão)
+HASF BeeHive (Halla Abelha Sem Ferrão)
 
 *Read this in other languages: [English](README.md), [Portuguese Brazil](README.pt-br.md)
 
@@ -25,7 +25,7 @@ It is the prototype of a stingless bee box that uses the concept of INPA boxes, 
     - [Base](#Base)
     - [Nest](#Nest)
     - [Over-Nest](#Over-Nest)
-    - [Honey Chamber](#Honey-Chamber)
+    - [Super (Honey Chamber)](#Honey-Chamber)
     - [Cover](#Cover)
   - [Next Steps](#Next-Steps)
   - [Version Changes](#Version-Changes)
@@ -57,8 +57,7 @@ Bees are very sensitive to changes in temperature, so essential to a stable envi
 The standards beehives used in beekeeping are built with the aim to maximise the honey production without really considering the comfort of the bees. These shelters which are very far to the natural habitat of the bees, weaken them by disturbing their metabolism. The cylindrical structure is the most efficient to save the warmth.
 
 ## Durable Materials
-For testing purposes, 3D models are being printed with different types of material such as PLA, ABS, PET-G among others. The future goal is to make molds for the injection of recyclable plastic.
-Perhaps more sustainable and better alternative for bees would be production using agglomerated cork. This material will be evaluated in the future as an alternative to plastic.
+For testing purposes, 3D models are being printed with different types of material such as PLA, ABS, PET-G among others. The future goal is to make molds for the injection of recyclable plastic and Concrete
 
 ### PLA used for prototyping
 PLA filament is a material used for 3D printing, famous for having its degradation process biologically activated.
@@ -81,17 +80,6 @@ Light concrete is a type of concrete with lower density that has numerous advant
 - 100% recyclable material
 - Compliance with technical standards
 Light Concrete can be made of foam or expanded vermiculite in a 10:1 ratio.
-
-### Cork
-In addition to suberin, the chemical composition of cork gives it unique properties, which make it a strong and quite resistant material, despite its low density. Check out its main features below:
-- Flexibility and compressibility: in just one cubic centimeter of cork there are about 40 million watertight cells, composed of a gas mixture similar to air. These cells allow the part to be compressed without losing its flexibility and for it to recover well from its original shape when it is decompressed.
-- Impermeability: cork cells are coated with elements such as suberin and ceroids, which promote their resistance to liquids and gases.
-- Lightness: each cubic centimeter of the product weighs between 0.15 and 0.20 grams.
-- Resistance to various atmospheric conditions: its composition allows the material to maintain its physical and chemical characteristics even when exposed to variations in temperature and pressure.
-- Mold resistance: due to its impermeability, cork is also resistant to oxidation and rot.
-- Insulation: the product also acts as a thermal, vibrating and acoustic absorber, either in constructions or in the conservation of beverages. As a stopper, cork protects wine from contamination, oxidation and other effects from storage and transport.
-- Fire resistance: if exposed to fire, the material presents a slow combustion, which does not create flames, does not propagate fire and does not release toxic gases.
-- Ecological: represents a fully recyclable, biodegradable and renewable product.
 
 ## Portable
 The hive needs to be portable, allowing easy handling and transportation when necessary.
@@ -121,7 +109,7 @@ There is a space of 20 mm between the external and internal wall for placing an 
 it follows the same pattern of the nest with the difference that its base has a lower opening in the form of a square of 80 mm x 80 mm and 4 side entrances for the bees. The goal is that the bees also produce the honeycombs in the semen to facilitate the process of dividing the hive.
 ![Hash Overnest](src/images/HASF-Overnest.png)
 
-## Honey Chamber
+## Super (Honey Chamber)
 It has honeycombs with a capacity to store approximately 5 ml of honey. The objective is to reduce the work of bees in the production of honeycombs or jars of honey and facilitate the extraction of honey.
 Perhaps according to the type of bee, the honey pots need to have their size reduced or increased, so I think in the future that the honeycombs are not fixed, thus allowing to change the sizes as necessary.
 Another possibility would be to produce jars of honey directly from beeswax using a silicone form.
@@ -138,6 +126,27 @@ To make the silicone mold it is necessary to use liquid silicone, add the cataly
 It must be filled with insulating material to close the hive
 ![Hash Base](src/images/HASF-Cover.png)
 
+# Models
+Just as there are several types of stingless bees, it could not be different with hives, in this way, 5 sizes will be available according to the table below:
+
+Model	| Internal Diameter Cylindrical Beehive (mm)	| External Diameter Cylindrical Beehive (mm)	| Nest Height (mm)	| Nest Volume (ml)	| Honey Chamber Height (mm)	| Honey Chamber Volume (ml)
+---- |---- |---- |---- |---- |---- |----
+A	| 113	| 193	| 50	| 500	| 20	| 200
+B	| 135	| 215	| 50	| 720	| 20	| 288
+C	| 169	| 249	| 75	| 1688	| 30	| 675
+D	| 181	| 261	| 70	| 1793	| 28	| 717
+E	| 226	| 306	| 80	| 3202	| 32	| 1281
+
+The hives may be suitable for the following bees:
+
+Model | Bees
+----- | ---- 
+A | Lambe Olhos, Mirim Droryana, Mirim Guaçu, Mirim Preguiça
+B | Iraí, Jatai
+C | Guaraipo, Jandaíra, Jupará, Mandaçaia MQA, Tiubá
+D | Manduri
+E | Borá, Bugia, Canudo, Mandaçaia MQQ, Mandaguari, Mombucão, Tubi,Tubuna, Uruçu
+
 # Next Steps
 - [ ] add electronic monitoring of temperature, humidity, etc;
 - [ ] Create a honey driller and extractor;
@@ -145,14 +154,13 @@ It must be filled with insulating material to close the hive
 - [x] develop beeswax honeycombs (version 2.0);
 
 # Version Changes
-- 1.0 Initial version
 - 2.0 Second release (21/05/2021)
   - Changed thread from inside to outside to prevent water from entering the thread
   - Built the inlet pipe
   - Changed the dimensions of the honey chamber based on the document [Efeito da padronização da altura de melgueiras para abelha Jataí](http://apacame.org.br/site/revista/mensagem-doce-n-145-marco-de-2018/artigo-5/?fbclid=IwAR1WRlwDaLafMQsi6imAG6ThI1SdjlGxfZeDl4RUsPbpFZx_EBIDRmaJwyM) for tests with Jataí bee
   - Creation of a silicone mold for the construction of beeswax honeycombs
   - Improved images
-
+- 1.0 Initial version
 # More Information
 - [Wiki](https://github.com/victorhalla/hasf/wiki)
 - [3D Printed HoneyCombs Field Test](https://kelulutrepublic.wordpress.com/2017/07/07/3d-printed-honeycombs-field-test/comment-page-1/?unapproved=2&moderation-hash=403e7ae99b781c1bb0874c015ef65e81#comment-2)
