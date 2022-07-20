@@ -1,15 +1,17 @@
-# HASF
-HASF BeeHive (Halla Abelha Sem Ferrão)
+# HASF v2
+HASF Stingles Bee Hive (Halla Abelha Sem Ferrão)
 
 *Read this in other languages: [English](README.md), [Portuguese Brazil](README.pt-br.md)
 
 It is the prototype of a stingless bee box that uses the concept of INPA boxes, thus facilitating handling. The objectives of this model are:
-* facilitate management through 5 blocks: base, nest, over-nest, honey chamber and cover
+* facilitate management through 5 blocks: base, nest, over-nest, super (honey chamber) and cover
 * low cost and durable
 * be scalable
 * reduce human contact during the honey extraction process
 * test the use of prefabricated honey pots
 * be portable
+* be light
+* withstand extreme cold and heat
 
 ## Table of Contents
   - [HASF](#Motivation)
@@ -27,6 +29,7 @@ It is the prototype of a stingless bee box that uses the concept of INPA boxes, 
     - [Over-Nest](#Over-Nest)
     - [Super (Honey Chamber)](#Honey-Chamber)
     - [Cover](#Cover)
+  - [Eletronics](#Eletronics)
   - [Next Steps](#Next-Steps)
   - [Version Changes](#Version-Changes)
   - [More Information](#More-Information)
@@ -41,23 +44,39 @@ INPA boxes are made up of three basic modules: Nest, Over-Nest and Honey Chamber
 
 ## Modular Design
 The proposed design has 5 blocks:
-* Base: used for the entry of bees
-* Nest: place where bees will place their honeycombs
+* Base: used for the entry of bees. In version 2, a labyrinth was introduced to help contain pests
+* Nest: Place where the bees will place the nest. In version 2, the inlet has been moved from the center to the side of the box so that the air stream does not fall directly on the nest.
 * Over-nest: place where the bees will place the brood combs used for the division of the hive
-* Honey Chamber: places where bees deposited honey
+* Super (Honey Chamber): places where bees deposited honey
 * Cover: beehive cover
+* Cover with Roof: beehive roof for covers with ventilation
 
-![Hash Box](src/images/hasf.png)
+![Hash Box](src/images/HASFv2.png)
 
 ### Section View
-![Hash Box](src/images/HASF-SectionView.png)
+![Hash Box](src/images/HASFv2-SectionView.png)
 
 ## Heat and Cold resistant
-Bees are very sensitive to changes in temperature, so essential to a stable environment. In nature, they use tree hollows that have excellent thermal resistance. To guarantee this thermal comfort, all blocks have a 2 cm layer that must be filled with Styrofoam. Other insulators can also be used. As the walls have a thickness of 0.1 cm to give greater rigidity, a mixture of cement with styrofoam can be used.
-The standards beehives used in beekeeping are built with the aim to maximise the honey production without really considering the comfort of the bees. These shelters which are very far to the natural habitat of the bees, weaken them by disturbing their metabolism. The cylindrical structure is the most efficient to save the warmth.
+Bees are very sensitive to changes in temperature, so essential to a stable environment. In nature, they use tree hollows that have excellent thermal resistance. To guarantee this thermal comfort, the final product will be produced from a concrete composed of cement, glue, vermiculite and styrofoam.
+Why am I not using wood like many others? Simple, the wood of a living tree has different properties than the wood we use, it is a material that has worse thermal properties than the above materials and the use of wood may not be sustainable. Remember that we are here looking for alternatives that provide better welfare to bees. The table below presents the coefficient of thermal conductivity of some materials for comparison:
+
+Material | Weight kgf/m3 | Thermal Conductivity W/m.C |
+-------- | ------------- | -------------------------- |
+Concrete | 2300 | 1.4 |
+Cellular Concrete | 300 - 600 | 0.057 - 0.14 |
+Polyurethane foam | 30 - 40 | 0.023 |
+Wood (Pine) | 550 | 0.16 - 0.35 |
+Vermiculite | 70 | 0.76 |
+
+Many beekeepers are making bee boxes (isothermal box) using styrofoam concrete or cellular concrete with excellent results. (https://www.youtube.com/watch?v=zlzW1eoSt5g)
+The idea is to improve this concept by adding vermiculite, which offers good thermal properties, in addition to the water absorption property that can also help control internal humidity.
+
+The concrete will be composed of 1 part concrete, 2 parts vermiculite and 7 parts styrofoam. At this point I'm assuming that the thermal conductivity with these 3 components would be around 0.05 W/m.C. Applying the calculations of thermal conduction of a cylinder, assuming the internal radius of 113mm and the temperature of the colony is 32C, we obtain the following wall thickness for each of the external temperatures:
+![Hash Box](src/images/ThicknessXTemperature.png)
+A 30mm wall could withstand up to an outside temperature of 0C
 
 ## Durable Materials
-For testing purposes, 3D models are being printed with different types of material such as PLA, ABS, PET-G among others. The future goal is to make molds for the injection of recyclable plastic and Concrete
+For testing purposes, 3D models are being printed with different types of material such as PLA. The future goal is to make molds for the injection of recyclable plastic and Concrete
 
 ### PLA used for prototyping
 PLA filament is a material used for 3D printing, famous for having its degradation process biologically activated.
@@ -99,32 +118,37 @@ The prototype uses the renowned INPA models but a cylindrical box thus allowing 
 
 ## Base
 The hive entrance is located at the base and has a thread for PET bottles so that the mouth of a bottle is placed whose objective is to prevent the attack of other insects such as ants. Inside the base, insulating material such as styrofoam should be placed in order to protect the hive, as well as create the path to the center so that the bees can reach the nest.
-![Hash Base](src/images/HASF-Base.png)
+![Hash Base](src/images/HASFv2-BASE-VENTILATION-FULL.png)
 
 ## Nest
 There is a space of 20 mm between the external and internal wall for placing an insulating material such as Styrofoam. The inside of the nest has 120 mm in diameter with a central hole of 10 mm for the entrance of the bees. The internal part can be covered with wood if the meliponicultor wishes, such as cork or ice cream sticks.
-![Hash Nest](src/images/HASF-Nest.png)
+![Hash Nest](src/images/HASFv2-NEST-FULL.png)
 
 ## Over-Nest
 it follows the same pattern of the nest with the difference that its base has a lower opening in the form of a square of 80 mm x 80 mm and 4 side entrances for the bees. The goal is that the bees also produce the honeycombs in the semen to facilitate the process of dividing the hive.
-![Hash Overnest](src/images/HASF-Overnest.png)
+![Hash Overnest](src/images/HASFv2-OVERNEST-FULL.png)
 
 ## Super (Honey Chamber)
 It has honeycombs with a capacity to store approximately 5 ml of honey. The objective is to reduce the work of bees in the production of honeycombs or jars of honey and facilitate the extraction of honey.
 Perhaps according to the type of bee, the honey pots need to have their size reduced or increased, so I think in the future that the honeycombs are not fixed, thus allowing to change the sizes as necessary.
 Another possibility would be to produce jars of honey directly from beeswax using a silicone form.
 Multiple honey chambers can be added one above the other to create a larger space for honey production
-![Hash Base](src/images/HASF-HoneyChamber.png)
-![Hash Base](src/images/HASF-HoneyChamberwithHoneycomb.png)
+![Hash Honey](src/images/HASFv2-HONEY-FULL.png)
+
 
 ### Honeycomb Mold
 It is a plastic piece for creating a silicone mold. With the silicone mold the honeycombs could be created from melted beeswax which would create a pattern for the bees facilitating the extraction of honey.
 To make the silicone mold it is necessary to use liquid silicone, add the catalyst according to the manufacturer's instructions and pour it into the mold. When it is cured approximately 2 hours later, the mold can be removed from the mold.
-![Hash Base](src/images/HASF-HoneycombMold.png)
+![Hash Honey Comb](src/images/HASF-HoneycombMold.png)
 
 ## Cover
-It must be filled with insulating material to close the hive
-![Hash Base](src/images/HASF-Cover.png)
+It will cover the hive box. A second version with top ventilation is also available.
+![Hash Cover](src/images/HASFv2-COVER-FULL.png)
+![Hash Cover Ventilation](src/images/HASFv2-COVER-VENTILATION-FULL.png)
+
+## RooF
+A roof for conver with ventilation.
+![Hash Roof](src/images/HASFv2-ROOF-FULL.png)
 
 # Models
 Just as there are several types of stingless bees, it could not be different with hives, in this way, 5 sizes will be available according to the table below: 
@@ -147,6 +171,15 @@ C | Guaraipo, Jandaíra, Jupará, Mandaçaia MQA, Tiubá
 D | Manduri
 E | Borá, Bugia, Canudo, Mandaçaia MQQ, Mandaguari, Mombucão, Tubi,Tubuna, Uruçu
 
+# Eletronics
+To date, little is observed in the use of tools and sensors to better understand stingless bees. In part because the technology is still very expensive and there is no established standard for it. 
+The goal here is to create low-cost electronic equipment that can be easily installed and operated by farmers.
+Initially we have the idea that the equipment can use the follwing modules:
+- LLILYGO® TTGO T-OI Plus ESP32-C3 (Processor - US $5.79)
+- Indoor and outdoor temperature and humidity (Waterproof SHT30 sensor - US $3.75)
+- Box load Cell (Module HX711 - US $1.35)
+- Lithium Battery (16340 - US $2.97)
+
 # Next Steps
 - [ ] add electronic monitoring of temperature, humidity, etc;
 - [ ] Create a honey driller and extractor;
@@ -161,6 +194,8 @@ E | Borá, Bugia, Canudo, Mandaçaia MQQ, Mandaguari, Mombucão, Tubi,Tubuna, Ur
   - Creation of a silicone mold for the construction of beeswax honeycombs
   - Improved images
 - 1.0 Initial version
+  ![Hash Box](src/images/HASFv1.png)
+
 # More Information
 - [Wiki](https://github.com/victorhalla/hasf/wiki)
 - [3D Printed HoneyCombs Field Test](https://kelulutrepublic.wordpress.com/2017/07/07/3d-printed-honeycombs-field-test/comment-page-1/?unapproved=2&moderation-hash=403e7ae99b781c1bb0874c015ef65e81#comment-2)
