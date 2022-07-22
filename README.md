@@ -1,5 +1,6 @@
+![Render Hash Box](src/images/HASF_v2-1410586535.png)
 # HASF v2
-HASF Stingles Bee Hive (Halla Abelha Sem Ferrão)
+HASF Stingless Bee Hive (Halla Abelha Sem Ferrão)
 
 *Read this in other languages: [English](README.md), [Portuguese Brazil](README.pt-br.md)
 
@@ -14,7 +15,7 @@ It is the prototype of a stingless bee box that uses the concept of INPA boxes, 
 * withstand extreme cold and heat
 
 ## Table of Contents
-  - [HASF](#Motivation)
+  - [HASF v2](#HASF-v2)
     - [Motivation](#Motivation)
     - [Modular Design](#Modular-Design)
     - [Heat and Cold resistant](#Heat-and-Cold-resistant)
@@ -29,6 +30,11 @@ It is the prototype of a stingless bee box that uses the concept of INPA boxes, 
     - [Over-Nest](#Over-Nest)
     - [Super (Honey Chamber)](#Honey-Chamber)
     - [Cover](#Cover)
+    - [Roof](#Roof)
+    - [Cork](#Cork)
+    - [Acetate](#Acetate)
+    - [Side Release Buckle Belt](#Side-Release-Buckle-Belt)
+    - [In Use](#In-Use)
   - [Eletronics](#Eletronics)
   - [Next Steps](#Next-Steps)
   - [Version Changes](#Version-Changes)
@@ -72,11 +78,11 @@ Many beekeepers are making bee boxes (isothermal box) using styrofoam concrete o
 The idea is to improve this concept by adding vermiculite, which offers good thermal properties, in addition to the water absorption property that can also help control internal humidity.
 
 The concrete will be composed of 1 part concrete, 2 parts vermiculite and 7 parts styrofoam. At this point I'm assuming that the thermal conductivity with these 3 components would be around 0.05 W/m.C. Applying the calculations of thermal conduction of a cylinder, assuming the internal radius of 113mm and the temperature of the colony is 32C, we obtain the following wall thickness for each of the external temperatures:
-![Hash Box](src/images/ThicknessXTemperature.png)
-A 30mm wall could withstand up to an outside temperature of 0C
+![Thickness vs Temperature](src/images/ThicknessXTemperature.png)
+A 30mm wall could withstand up to an outside temperature of 0ºC
 
 ## Durable Materials
-For testing purposes, 3D models are being printed with different types of material such as PLA. The future goal is to make molds for the injection of recyclable plastic and Concrete
+For testing purposes, 3D models are being printed with PLA. The future goal is for people to be able to make 3D printed boxes or buy recyclable plastic or concrete boxes.
 
 ### PLA used for prototyping
 PLA filament is a material used for 3D printing, famous for having its degradation process biologically activated.
@@ -104,7 +110,7 @@ Light Concrete can be made of foam or expanded vermiculite in a 10:1 ratio.
 The hive needs to be portable, allowing easy handling and transportation when necessary.
 
 ## Easy to Operate
-Because it is modular and threadable, you can mix modules, increase the number of honey chamber, etc. Another positive point is the ease of collecting honey due to the fact that the jars have a pattern
+Because it is modular and plugable, you can mix modules, increase the number of honey chamber, etc. Another positive point is the ease of collecting honey due to the fact that the jars have a pattern
 Based on some studies found on the Internet and used in Malaysia, Australia and Brazil, I developed a honeycomb that has a hexagonal structure with a diameter of 1.6 cm and height of 1.6 cm to standardize the construction of honey pots thus facilitating the its extraction. This structure can be created in plastic or using beeswax with silicone mold.
 The idea is to test with Jataí bees, but it can be used with other bees and you may need to change the dimensions. The current size was based on the following document [Efeito da padronização da altura de melgueiras para abelha Jataí](http://apacame.org.br/site/revista/mensagem-doce-n-145-marco-de-2018/artigo-5/?fbclid=IwAR1WRlwDaLafMQsi6imAG6ThI1SdjlGxfZeDl4RUsPbpFZx_EBIDRmaJwyM)
 
@@ -114,46 +120,64 @@ The idea is to produce units in non-toxic and biodegradable plastic at low cost.
 # Design Explanation
 
 ## Concept
-The prototype uses the renowned INPA models but a cylindrical box thus allowing the use of threads to fit the modules, eliminating the need for tapes or other products to keep the modules together. Another benefit is the establishment of a standard for the honey cameras, thus allowing greater homogeneity, thus facilitating the harvest. One possibility would be to remove the honey cameras, replacing them with new ones and take the floods of honey for collection in a proper equipment or honey house.
+The prototype uses the same concepts and dimensions of the INPA boxes in a cylindrical shape, better simulating the hollow of trees and using fittings that allow a complete sealing of the box, eliminating the need for tapes or other products to keep the modules together, thus reducing risks. from external attacks. This model allows the easy exchange of modules between boxes, facilitating the handling, division, homogeneity and harvesting of honey. One possibility would be to remove the super trees, replacing them with new ones and taking them for collection in their own equipment, thus improving their quality.
+At the top of each module, cork boards are glued to seal between each module. In addition to the cork boards, acetate separators are also installed, thus facilitating the opening of the modules that could be glued together because of the propolis.
+The 3d models can be printed and used directly as a bee box, but its large-scale production is still economically unfeasible due to the long printing time. A manual will be created for those who wish to use PLA printed boxes.
 
 ## Base
-The hive entrance is located at the base and has a thread for PET bottles so that the mouth of a bottle is placed whose objective is to prevent the attack of other insects such as ants. Inside the base, insulating material such as styrofoam should be placed in order to protect the hive, as well as create the path to the center so that the bees can reach the nest.
+The base was developed taking into account two main objectives: to reduce the possibility of attack by other external animals and to allow the future installation of electronic devices to monitor the box.
+The entrance has a mouth that allows the installation of cut PET bottles in order to protect from external attacks by lizards, ants, etc. Internally, it has a corridor parallel to the left ray going from the front to the back, creating a kind of labyrinth to make it difficult for other animals to enter.
+At the bottom there is an opening for ventilation that, if not needed, can be closed simply with a cork stopper. In the case of ventilation, a ring is placed with a screen allowing ventilation, but preventing the passage of other animals.
+In the version with electronic systems, it has a cavity for installing the system and sensors that will be connected to the nest.
 ![Hash Base](src/images/HASFv2-BASE-VENTILATION-FULL.png)
 
 ## Nest
-There is a space of 20 mm between the external and internal wall for placing an insulating material such as Styrofoam. The inside of the nest has 120 mm in diameter with a central hole of 10 mm for the entrance of the bees. The internal part can be covered with wood if the meliponicultor wishes, such as cork or ice cream sticks.
+The entrance of the bees to the nest is carried out through a hole at the bottom of the module connected to the base. In a first version, this hole was located in the center of the box, being changed to allow a greater distance between the entrance and the nest and so that the ventilation flow does not directly affect the nest. At the base of the nest there are 4 small pillars to support the nest.
 ![Hash Nest](src/images/HASFv2-NEST-FULL.png)
 
 ## Over-Nest
-it follows the same pattern of the nest with the difference that its base has a lower opening in the form of a square of 80 mm x 80 mm and 4 side entrances for the bees. The goal is that the bees also produce the honeycombs in the semen to facilitate the process of dividing the hive.
+The over nest has additional openings to facilitate movement between the nest and over the nest while maintaining similar pillars to the nest, thus allowing for a simpler division.
 ![Hash Overnest](src/images/HASFv2-OVERNEST-FULL.png)
 
 ## Super (Honey Chamber)
-It has honeycombs with a capacity to store approximately 5 ml of honey. The objective is to reduce the work of bees in the production of honeycombs or jars of honey and facilitate the extraction of honey.
-Perhaps according to the type of bee, the honey pots need to have their size reduced or increased, so I think in the future that the honeycombs are not fixed, thus allowing to change the sizes as necessary.
-Another possibility would be to produce jars of honey directly from beeswax using a silicone form.
-Multiple honey chambers can be added one above the other to create a larger space for honey production
+The super was built based on a study that consists of reducing its height to allow that there are no honey pots one on top of the other, which aims to facilitate the collection of honey, using, for example, suction equipment, which could keep the honey pots intact by making small openings at the top. This model would reduce the impacts to the exam that after a honey collection needs to rebuild the pots.
+A second option to reduce the need to build honey pots is to install pre-made plastic or 3D printed jars. This model is in testing and we have already noticed that there is a good acceptance of bees, but it needs to be tested with more species.
+The third option would be the pre-fabrication of wax honey pots, using silicone molds as presented in the next topic.
 ![Hash Honey](src/images/HASFv2-HONEY-FULL.png)
 
-
 ### Honeycomb Mold
-It is a plastic piece for creating a silicone mold. With the silicone mold the honeycombs could be created from melted beeswax which would create a pattern for the bees facilitating the extraction of honey.
-To make the silicone mold it is necessary to use liquid silicone, add the catalyst according to the manufacturer's instructions and pour it into the mold. When it is cured approximately 2 hours later, the mold can be removed from the mold.
+It is basically a plastic or 3D printed mold for creating silicone molds that would be used for the pre-fabrication of honey pots. Initially I am using a model similar to European bees just to improve the use of space, but other models will be tested as well.
 ![Hash Honey Comb](src/images/HASF-HoneycombMold.png)
 
 ## Cover
-It will cover the hive box. A second version with top ventilation is also available.
+Two covers were developed, one fully closed and one with an upper hole for ventilation. In the case of using the model with ventilation, it will be necessary to use a ring together with a screen and then a roof to prevent water ingress.
 ![Hash Cover](src/images/HASFv2-COVER-FULL.png)
 ![Hash Cover Ventilation](src/images/HASFv2-COVER-VENTILATION-FULL.png)
 
-## RooF
-A roof for conver with ventilation.
+## Roof
+The roof is only necessary in the model with roof ventilation.
 ![Hash Roof](src/images/HASFv2-ROOF-FULL.png)
+
+## Cork
+Cork boards are used glued to the top of each module to allow a better seal. It is understood that other materials can be used for this purpose, such as rubber, foam, etc.
+![Hash Cork](src/images/HASFv2-CORK.png)
+
+## Acetate
+Between the modules, two acetate separators are used, to facilitate the opening of the same, which often end up glued by the propolis.
+![Hash Acetate](src/images/HASFv2-ACETATE.png)
+
+## Side Release Buckle Belt
+To ensure greater difficulty in opening the box, we can use a quick coupling strap, as the box has lateral grooves for this purpose. This process proved to be extremely simple to ensure that all the modules in the box stay together.
+![Hash BUCKLE BELT](src/images/HASFv2-Side-RELEASE-BUCKLE-BELT.png)
+
+## In Use
+Here I present a box that has been in use since October 2021, produced in PLA with PU foam padding.
+![Hash BUCKLE BELT](src/images/HASFv2-LIVE.png)
 
 # Models
 Just as there are several types of stingless bees, it could not be different with hives, in this way, 5 sizes will be available according to the table below: 
 
-Model	| Internal Diameter Cylindrical Beehive (mm)	| External Diameter Cylindrical Beehive (mm)	| Nest Height (mm)	| Nest Volume (ml)	| Honey Chamber Height (mm)	| Honey Chamber Volume (ml)
+Model	| Internal Diameter Cylindrical Beehive (mm)	| External Diameter Cylindrical Beehive (mm)	| Nest Height (mm)	| Nest Volume (ml)	| Super (Honey Chamber) Height (mm)	| Super (Honey Chamber) Volume (ml)
 ---- |---- |---- |---- |---- |---- |----
 A	| 113	| 193	| 50	| 500	| 20	| 200
 B	| 135	| 215	| 50	| 720	| 20	| 288
@@ -172,13 +196,24 @@ D | Manduri
 E | Borá, Bugia, Canudo, Mandaçaia MQQ, Mandaguari, Mombucão, Tubi,Tubuna, Uruçu
 
 # Eletronics
-To date, little is observed in the use of tools and sensors to better understand stingless bees. In part because the technology is still very expensive and there is no established standard for it. 
-The goal here is to create low-cost electronic equipment that can be easily installed and operated by farmers.
-Initially we have the idea that the equipment can use the follwing modules:
-- LLILYGO® TTGO T-OI Plus ESP32-C3 (Processor - US $5.79)
-- Indoor and outdoor temperature and humidity (Waterproof SHT30 sensor - US $3.75)
-- Box load Cell (Module HX711 - US $1.35)
-- Lithium Battery (16340 - US $2.97)
+So far, little is observed in the use of tools and sensors for a better understanding of stingless bees. In part, because the technology is still very expensive and there is no set standard for it.
+To simplify and already look for something available on the market, I purchased temperature and humidity meters that could be installed inside the boxes and allow remote reading through Bluetooth such as the “ORIA Thermometer Hygrometer” sensors.
+![Hash Oria](src/images/ORIA-Thermometer-Hygrometer.png)
+
+This sensor fulfilled the objective of collecting temperature and humidity information as shown below in a box with Mirim bees, being able to store it for up to two months. The downside is that the battery lasts between 1 and 2 months. As can be seen in the graphs below, the temperature remained between 31ºC and 28ºC.
+![Hash Oria Graphic](src/images/ORIA-Graphic.png)
+
+A next step would be to create low-cost electronic equipment that can be easily installed and operated by beekeepers, with the ability to monitor the following points:
+- Temperature and humidity
+- Sound and/or internal noise
+- Population of the box by monitoring the entry and exit of bees
+- Box weight for monitoring honey production and bee health
+
+Initially we have the idea that the equipment can use the following modules:
+- LLILYGO® TTGO T-OI Plus ESP32-C3 (MCU - $5.79)
+- Indoor and outdoor temperature and humidity (SHT30 waterproof sensor - $3.75)
+- Box Load Cell (Module HX711 - $1.35)
+- Lithium battery (16340 - $2.97)
 
 # Next Steps
 - [ ] add electronic monitoring of temperature, humidity, etc;
