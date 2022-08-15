@@ -35,6 +35,10 @@ Caixa HASF (Halla Abelha Sem Ferrão)
      - [Separadores de Acetato](#Separadores-de-Acetato)
      - [Cinta de Engate Rápido](#Cinta-de-Engate-Rápido)
      - [Em Utilização](#Em-Utilização)
+   - [Outras Partes](#Outras-Partes)
+     - [Ninho Armadilha](#Ninho-Armadilha)
+     - [Alimentador](#Alimentador)
+     - [Tampa Ventilação](#Tampa-Ventilação)
    - [Eletrônicos](#Eletrônicos)
    - [Próximas etapas](#Próximas-etapas)
    - [Alterações de versão](#Alterações-de-versão)
@@ -76,11 +80,13 @@ Vermiculita | 70 | 0,76 |
 
 Muitos meliponicultores estão fazendo caixas de abelhas (caixa isotérmica) usando concreto de isopor ou concreto celular com excelentes resultados. (https://www.youtube.com/watch?v=zlzW1eoSt5g)
 A ideia é aprimorar esse conceito com a adição de vermiculita, que oferece boas propriedades térmicas, além da propriedade de absorção de água que também pode ajudar a controlar a umidade interna.
-
-O concreto será composto de 1 parte de concreto, 2 partes de vermiculita e 7 partes de isopor. Neste ponto, estou assumindo que a condutividade térmica com esses 3 componentes seria em torno de 0,05 W/m.C. Aplicando os cálculos de condução térmica de um cilindro, assumindo o raio interno de 113mm e a temperatura da colônia de 32ºC, obtemos a seguinte espessura de parede para cada uma das temperaturas externas:
+O concreto será composto de 1 parte de concreto, 2 partes de vermiculita e 7 partes de isopor. Neste ponto, estou assumindo que a condutividade térmica com esses 3 componentes seria em torno de 0,05 W/m.C. 
+Aplicando os cálculos de condução térmica de um cilindro, assumindo o raio interno de 113mm e a temperatura da colônia de 32ºC, obtemos a seguinte espessura de parede para cada uma das temperaturas externas:
 ![Thickness x Temperature](src/images/ThicknessXTemperature.png)
-Uma parede de 30 mm pode suportar até uma temperatura externa de até 0ºC.
+Uma parede de 30 mm pode suportar uma temperatura externa de até 0ºC e estamos utiilizando paredes de 40 mm para ter um suporte térmico adicional.
+Vale lembrar que os calculos aqui realizados tem como base um sistema fechado, no entanto, um ninho de abelha é um sistema aberto, pois quase todo o tempo a porta de entrada esta aberta, permitindo que o ar entre de forma mais intensa. Como a entrada é realizada na base, em um pavimento inferior, isto tende a ajudar no isolamento termico.
 Para caixas impressas em 3D as paredes serão ocas e posteriormente preenchidas com espuma PU que é um escelente isolante térmico.
+
 
 ## Materiais duráveis
 Para fins de teste, os modelos 3D estão sendo impressos com PLA. O objetivo futuro é que as pessoas possam fazer caixas impressas em 3D ou comprar caixas de plástico reciclável ou concreto
@@ -125,7 +131,7 @@ Na parte superior de cada modulo são coladas placas de cortiça que tem como ob
 Os modelos 3d poderão ser impressos e utilizados diretamentecomo caixa de abelha, porem sua produção em larga escala ainda é economicamente inviavel devido ao longo tempo de impressão. Será criado um manual para aqueles que desejam utilizar caixas impressas em PLA.
 
 ## Base
-A base foi desenvolvida levando em consideração dois objetivos principais: reduzir a possibilidade de ataque de outros animais externos e permitir a futura instalação de dispositivos eletrônicos para monitorar a caixa.
+A base foi desenvolvida levando em consideração três objetivos principais: reduzir a possibilidade de ataque de outros animais externos, reduzir o impacto da redução de temperatura na caixa e permitir a futura instalação de dispositivos eletrônicos para monitorar a caixa.
 A entrada possui um uma boca que possibilita a instalação de garrafas PET cortadas com objetivo de proteger de ataques externos de lagartixas, formigas etc. Internamente, possui um corredor paralelo ao raio esquerdo indo da frente ao fundo, criando uma espécie de labirinto para dificultar a entrada de outros animais.
 Na parte de baixo existe um a abertura para ventilação que caso não seja necessária pode ser fechado simplesmente com uma rolha de cortiça. No caso do uso da ventilação, é colocado um anel com uma tela permitindo a ventilação, mas impedindo a passagem de outros animais.
 Na versão com sistemas eletrônicos, possui uma cavidade para instalação do sistema e sensores que serão conectados ao ninho.
@@ -190,10 +196,26 @@ As caixas podem ser adequadas para as seguintes abelhas:
 Modelo | abelhas
 ----- | ----
 A | Lambe Olhos, Mirim Droryana, Mirim Guaçu, Mirim Preguiça
-B | irai, jataí
+B | Irai, Jataí
 C | Guaraipo, Jandaira, Jupará, Mandaçaia MQA, Tiubá
-D | manduri
+D | Manduri
 E | Borá, Bugia, Canudo, Mandaçaia MQQ, Mandaguari, Mombucão, Tubi, Tubuna, Uruçu
+
+# Outras Partes
+Adicionalmente as caixas, outras peças foram criadas com intuito de facilitar o uso e manuseio, como:
+
+## Ninho Armadilha
+A captura de enxames é feita através da utilização de Ninho Armandilha através do processo de enxameação. Quando a colônia está bastante forte e com grande população, produz uma nova rainha que juntamente com parte das operárias forma uma nova
+colônia em outro lugar.
+As operárias que saem à procura de novos locais para construir seu ninho geralmente buscam ocos que já foram habitados por outras colônias de abelhas, pois assim podem aproveitar os materiais de construção restantes. Por isso, é muito comum atrair enxames para caixas velhas que já foram utilizadas por outras abelhas. Com base nessas observações, os criadores descobriram que basta passar extrato de própolis e um pouco de cera em recipientes ocos que os enxames são atraídos.
+Atualmente os ninhos armadilhas são construidos em sua maioria de garrafas PET enroladas em papel/papelão cobertas com alguma material escuro, me geral plastico preto, conforme a a imagem abaixo:
+![Nest Trap](src/images/Trap-Nest.png)
+Partindo da afirmação de que as abelhas preferem locais já habitados anteriormente por abelhas, a ideia é criar um ninho armadilha que possa ser reutilizável. Usando o mesmo conceito utilizado aqui, foi desenhado um ninho armadilha produzido de concreto leve que pode ser facilmente aberto pois é fechado usando uma cinta de engate rápido, permitindo assim a sua reutilização.
+![Hash Nest Trap](src/images/HASFv2-Trap-Nest.png)
+
+## Alimentador
+
+## Tampa de Ventilação
 
 # Eletrônicos
 Até o momento, pouco se observa no uso de ferramentas e sensores para melhor compreensão das abelhas sem ferrão. Em parte, porque a tecnologia ainda é muito cara e não existe um padrão estabelecido para ela.
