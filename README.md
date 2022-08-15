@@ -35,6 +35,8 @@ It is the prototype of a stingless bee box that uses the concept of INPA boxes, 
     - [Acetate](#Acetate)
     - [Side Release Buckle Belt](#Side-Release-Buckle-Belt)
     - [In Use](#In-Use)
+  - [Other Parties](#Other-Parts)
+     - [Trap Nest](#Trap-Nest)
   - [Eletronics](#Eletronics)
   - [Next Steps](#Next-Steps)
   - [Version Changes](#Version-Changes)
@@ -76,10 +78,11 @@ Vermiculite | 70 | 0.76 |
 
 Many beekeepers are making bee boxes (isothermal box) using styrofoam concrete or cellular concrete with excellent results. (https://www.youtube.com/watch?v=zlzW1eoSt5g)
 The idea is to improve this concept by adding vermiculite, which offers good thermal properties, in addition to the water absorption property that can also help control internal humidity.
-
 The concrete will be composed of 1 part concrete, 2 parts vermiculite and 7 parts styrofoam. At this point I'm assuming that the thermal conductivity with these 3 components would be around 0.05 W/m.C. Applying the calculations of thermal conduction of a cylinder, assuming the internal radius of 113mm and the temperature of the colony is 32C, we obtain the following wall thickness for each of the external temperatures:
 ![Thickness vs Temperature](src/images/ThicknessXTemperature.png)
-A 30mm wall could withstand up to an outside temperature of 0ºC
+A 30mm wall can withstand up to an outside temperature of up to 0ºC and we are using 40mm walls for additional thermal support.
+It is worth remembering that the calculations performed here are based on a closed system, however, a bee's nest is an open system, since almost all the time the entrance door is open, allowing the air to enter more intensely. As the entrance is made at the base, on a lower floor, this tends to help with thermal insulation.
+For 3D printed boxes the walls will be hollow and later filled with PU foam which is an excellent thermal insulator.
 
 ## Durable Materials
 For testing purposes, 3D models are being printed with PLA. The future goal is for people to be able to make 3D printed boxes or buy recyclable plastic or concrete boxes.
@@ -194,6 +197,18 @@ B | Iraí, Jatai
 C | Guaraipo, Jandaíra, Jupará, Mandaçaia MQA, Tiubá
 D | Manduri
 E | Borá, Bugia, Canudo, Mandaçaia MQQ, Mandaguari, Mombucão, Tubi,Tubuna, Uruçu
+
+# Other Parties
+In addition to the boxes, other parts were created in order to facilitate use and handling, such as:
+
+## Trap Nest
+The capture of swarms is done through the use of Ninho Tramdilha through the swarming process. When the colony is very strong and with a large population, it produces a new queen that, together with part of the workers, forms a new one.
+colony elsewhere.
+Workers looking for new places to build their nest usually look for holes that have already been inhabited by other bee colonies, so they can take advantage of the remaining building materials. Therefore, it is very common to attract swarms to old boxes that have already been used by other bees. Based on these observations, the breeders found that simply passing propolis extract and a little wax into hollow containers would attract swarms.
+Currently, trap nests are built mostly of PET bottles wrapped in paper/cardboard covered with some dark material, generally black plastic, as shown in the image below:
+![Nest Trap](src/images/Trap-Nest.png)
+Starting from the statement that bees prefer places previously inhabited by bees, the idea is to create a trap nest that can be reusable. Using the same concept used here, a trap nest made of lightweight concrete was designed that can be easily opened as it is closed using a quick coupling strap, thus allowing its reuse.
+![Hash Nest Trap](src/images/HASFv2-Trap-Nest.png)
 
 # Eletronics
 So far, little is observed in the use of tools and sensors for a better understanding of stingless bees. In part, because the technology is still very expensive and there is no set standard for it.
